@@ -1,0 +1,74 @@
+body {
+	font-family:Comic Sans MS;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: space-between;
+	margin: 0;
+}
+
+header {
+	background: linear-gradient(to top, #0C01EA, #5B03E0);
+	position: sticky;
+	top: 0;
+	margin: 5px;
+	border-radius: 5px;
+	z-index: 1;
+}
+
+header h1 {
+	text-align: center;
+	color: #FFF;
+}
+
+.main {
+	background: rgb(0, 0, 255);
+	color: #FFF;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 955px;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.someMenu {
+	background: rgb(0, 0, 255);
+	color: #FFF;
+	position: absolute;
+	right: 5px;
+	top: 100px;	
+	width: 340px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.someMenu ul {
+	padding-left: 60px;
+}
+
+.someMenu ul li {
+	font-size: 22px;
+}
+
+.someMenu ul li a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.someMenu ul li:first-child {
+	font-weight: bold;
+	list-style: none;
+	margin-bottom: 10px; 
+}
+
+footer {
+	background: linear-gradient(to bottom, #0C01EA, #5B03E0);
+	border-radius: 5px;
+	margin: 5px;
+}
+
+footer h3 {
+	color: #FFF;
+	padding: 10px 30px;
+}

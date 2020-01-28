@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	color: #FFF;
+}
+
+header {
+	font-family: Comic Sans MS;
+	background: #bc4504;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+header h1 {
+	padding: 5px 0;
+	text-align: center;
+}
+
+.wrapper {
+	background: #bc4504;
+	margin: 110px 0 10px 0;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap; 
+}
+
+div[class^="square"] {
+	text-align: center;
+	background: #5D2907;
+	padding: 8px;
+	margin: 15px;
+	box-shadow: 5px 5px 15px black;
+	width: 15%;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+div[class^="square"]:hover {
+	background: #833B0C;
+}
+
+div[class$="1"] {
+	font-family: 'Pacifico', cursive;
+}
+
+div[class$="2"] {
+	font-family: 'Amatic SC', cursive;
+}
+
+div[class$="3"] {
+	font-family: 'Caveat', cursive;
+}
+
+div[class$="4"] {
+	font-family: 'Anonymous Pro', monospace;
+}
+
+div[class$="5"] {
+	font-family: 'Comfortaa', cursive;
+}
+
+footer {
+	background: #bc4504;
+	margin: 13px 0 0 0;
+	font-family: Comic Sans MS;
+	padding: 10px 0 10px 50px;
+}
+
+footer .container h3 {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px){
+	div[class^="square"] {
+		width: 17%;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	div[class^="square"] {
+		width: 27%;
+	}
+	.wrapper {
+		justify-content: flex-start;
+	}
+}
+
+@media screen and (max-width: 780px){
+	div[class^="square"] {
+		width: 37%;
+	}
+}
+
+@media screen and (max-width: 650px){
+	div[class^="square"] {
+		width: 90%;
+	}
+}
