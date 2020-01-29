@@ -1,0 +1,18 @@
+body {
+	background: linear-gradient(to right, #00f260, #0575e6);
+	font-family: 'Comfortaa', cursive;
+	color: #FFF;
+}
+
+h1 {
+	text-align: center;
+}
+
+.block {
+	background: rgba(15, 83, 255, 0.2);
+	text-align: center;
+	font-size: 25px;
+	display: inline-flex; 
+	border-radius: 5px;
+	padding: 5px 20px;
+}
