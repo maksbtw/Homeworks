@@ -1,0 +1,28 @@
+.fields input{
+	border: 0;
+	background: rgba(186, 186, 186, 0.7);
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+}
+.btns button {
+	border: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 0 5px;
+	outline: none;
+}
+
+.ans {
+	background: rgba(186, 186, 186, 0.7);
+	width: 200px;
+	text-align: center;
+	padding: 1px;
+	border-radius: 5px;
+}
+
+.btns button:hover {
+  	animation-duration: 0.5s;
+  	background: rgba(186, 186, 186, 0.8);
+}
