@@ -1,0 +1,55 @@
+body {
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.wrapper {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	background: #2B402C;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.inputs input {
+	padding: 10px;
+	border: 0;
+	background: #568C69;
+	color: #fff;
+	outline: none;
+	display: block;
+	margin: 0 auto;
+}
+
+.inputs #input {
+	width: 280px;
+	border-radius: 5px 5px 0 0;
+	font-size: 20px;
+}
+
+.inputs #btn {
+	padding: 10px 20px;
+	transition: ease 0.3s all;
+	width: 300px;
+	border-radius: 0 0 5px 5px;
+	font-size: 20px;
+}
+
+.inputs #btn:hover {
+	background: #4A775A;
+}
+
+.inputs #btn:active {
+	background: #3A5E47;
+}
+
+#todos li{
+	color: #fff;
+	list-style: none;
+	background: #568C69;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	margin-right: 60px;
+}
